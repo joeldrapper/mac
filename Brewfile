@@ -12,12 +12,10 @@ cask 'font-hasklig'
 
 # Web
 cask 'tunnelbear'
-cask 'speedify'
 cask 'tunnelblick'
 cask 'dnscrypt'
 cask 'google-chrome'
 cask 'firefox'
-cask 'brave'
 
 # Productivity
 mas 'Things', id: 407951449
@@ -44,6 +42,7 @@ cask 'iterm2'
 cask 'atom'
 cask 'github-desktop'
 cask 'postman'
+cask 'insomnia'
 
 # Reading
 mas 'Kindle', id: 405399194
