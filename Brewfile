@@ -1,3 +1,5 @@
+brew "zsh-completions"
+
 # Cask to install Mac apps
 tap 'caskroom/cask'
 
@@ -11,22 +13,23 @@ brew 'mas'
 cask 'font-hasklig'
 
 # Web
-cask 'tunnelbear'
 cask 'tunnelblick'
 cask 'dnscrypt'
 cask 'google-chrome'
 cask 'firefox'
 
 # Productivity
-mas 'Things', id: 407951449
+mas 'Things3', id: 904280696
 mas 'Noizio', id: 928871589
 mas 'Tadam', id: 531349534
 cask '1password'
 cask 'basecamp'
+cask 'alfred'
 
 # Communication
 mas 'Tweetbot', id: 557168941
-mas "Telegram", id: 747648890
+mas 'Telegram', id: 747648890
+cask 'keybase'
 
 # Video
 mas 'ScreenFlow', id: 1107828211
@@ -39,7 +42,9 @@ cask 'vlc'
 
 # Development
 cask 'iterm2'
+cask 'black-screen'
 cask 'atom'
+cask 'atom-beta'
 cask 'github-desktop'
 cask 'postman'
 cask 'insomnia'
@@ -63,7 +68,6 @@ cask 'imagealpha'
 mas 'Soulver', id: 413965349
 cask 'endurance'
 cask 'duet'
-cask 'near-lock'
 cask 'timestamp'
 mas 'Characters', id: 536511979
 
