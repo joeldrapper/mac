@@ -1,20 +1,8 @@
 # Laptop
 curl https://raw.githubusercontent.com/thoughtbot/laptop/master/mac | sh 2>&1 | tee ~/laptop.log
 
-# Remove Ruby
-# The one thing I don't like about Laptop is it's upgrading the system ruby.
-# It makes more sense to just use rbenv.
-brew uninstall ruby
-
-git clone https://github.com/joeldrapper/mac ~/Code/joeldrapper/mac
-cd ~/Code/joeldrapper/mac
-
 # Bundle Brewfile
 brew bundle
-
-# Clean up brew caches
-brew cleanup
-brew cask cleanup
 
 # Install OhMyZSH
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
@@ -22,5 +10,12 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 # Install Atom packages
 sh ./atom.sh
 
-# Install Pow
-curl get.pow.cx | sh
+# Disable animations
+defaults write NSGlobalDomain NSAutomaticWindowAnimationsEnabled -bool false
+defaults write -g QLPanelAnimationDuration -float 0
+defaults write NSGlobalDomain NSWindowResizeTime -float 0.001
+defaults write com.apple.dock launchanim -bool false
+defaults write com.apple.finder DisableAllAnimations -bool true
+
+# Set WiFi roaming policy to Strongest
+sudo /System/Library/PrivateFrameworks/Apple80211.framework/Versions/A/Resources/airport prefs joinMode=Strongest
