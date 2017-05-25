@@ -1,5 +1,7 @@
 # Mac
 
+Download and run
+
 ```
-curl https://raw.githubusercontent.com/joeldrapper/mac/master/setup.sh | sh
+sh setup.sh
 ```
