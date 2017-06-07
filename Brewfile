@@ -47,7 +47,7 @@ cask 'vlc'
 # Development
 brew 'kr'
 cask 'iterm2'
-cask 'black-screen'
+cask 'upterm'
 cask 'atom'
 cask 'atom-beta'
 cask 'github-desktop'
