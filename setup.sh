@@ -20,4 +20,6 @@ defaults write com.apple.finder DisableAllAnimations -bool true
 # Set WiFi roaming policy to Strongest
 sudo /System/Library/PrivateFrameworks/Apple80211.framework/Versions/A/Resources/airport prefs joinMode=Strongest
 
+# Setup Kryptonite
+curl https://krypt.co/kr | sh
 kr pair
