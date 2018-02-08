@@ -13,52 +13,30 @@ brew 'mas'
 # Fonts
 cask 'font-hasklig'
 
-# Web
-cask 'tunnelblick'
-cask 'dnscrypt'
-cask 'google-chrome'
-cask 'firefox'
-
 # Productivity
 mas 'Things3', id: 904280696
-mas 'Noizio', id: 928871589
-mas 'Tadam', id: 531349534
 cask '1password'
 cask 'basecamp'
-cask 'alfred'
+
+# Web
+mas '1Blocker', id: 1107421413
+mas 'Better Blocker', id: 1121192229
 
 # Communication
-mas 'Tweetbot', id: 557168941
-mas 'Telegram', id: 747648890
 cask 'keybase'
 
 # Video
-mas 'ScreenFlow', id: 1107828211
-mas 'Permute', id: 731738567
 cask 'licecap'
-mas 'GIPHY CAPTURE', id: 668208984
-mas 'GIF Brewery', id: 1081413713
-cask 'handbrake'
-cask 'vlc'
 
 # Development
-cask 'iterm2'
-cask 'upterm'
 cask 'atom'
-cask 'atom-beta'
-cask 'github-desktop'
-cask 'postman'
-cask 'insomnia'
-
-# Reading
-mas 'Kindle', id: 405399194
+cask 'github'
 
 # Writing
 mas 'iA Writer', id: 775737590
 
 # Design
 mas 'Affinity Designer', id: 824171161
-cask 'sketch'
 
 # Photos
 mas 'Affinity Photo', id: 824183456
@@ -67,9 +45,6 @@ cask 'imagealpha'
 
 # Other
 mas 'Soulver', id: 413965349
-cask 'endurance'
-cask 'duet'
-cask 'timestamp'
 mas 'Characters', id: 536511979
 
 # XCode - Last because it's huge
