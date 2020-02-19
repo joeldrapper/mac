@@ -19,6 +19,8 @@ cask 'basecamp'
 # Web
 mas '1Blocker', id: 1107421413
 mas 'Better Blocker', id: 1121192229
+cask 'signal'
+cask 'slack'
 
 # Development
 cask 'atom'
