@@ -1,6 +1,6 @@
 brew "zsh-completions"
 
-# Cask to install Mac apps
+# Casks
 tap 'caskroom/cask'
 tap 'caskroom/versions'
 
@@ -22,18 +22,9 @@ cask 'basecamp'
 mas '1Blocker', id: 1107421413
 mas 'Better Blocker', id: 1121192229
 
-# Communication
-cask 'keybase'
-
-# Video
-cask 'licecap'
-
 # Development
 cask 'atom'
 cask 'github'
-
-# Writing
-mas 'iA Writer', id: 775737590
 
 # Design
 mas 'Affinity Designer', id: 824171161
