@@ -1,11 +1,9 @@
 brew "zsh-completions"
 
 # Casks
-tap 'caskroom/cask'
-tap 'caskroom/versions'
-
-# Cask Fonts to install Fonts
-tap 'caskroom/fonts'
+tap 'homebrew/cask-cask'
+tap 'homebrew/cask-versions'
+tap 'homebrew/cask-fonts'
 
 # To install Mac apps from the App Store
 brew 'mas'
